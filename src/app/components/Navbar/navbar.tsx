@@ -8,7 +8,7 @@ const Navbar = () => {
             {/*TODO:component navbarItem*/}
             <ul>
                 {navbarItemList.map((el) => (
-                    <li>{el.text}</li>
+                    <li><a href={el.href}>{el.text}</a></li>
                 ))}
             </ul>
         </nav>
